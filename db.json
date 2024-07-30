@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "47c7",
+      "name": "EJI",
+      "email": "eji@gmail.com",
+      "password": "oppo"
+    },
+    {
+      "id": "10fa",
+      "name": "HAASHINI",
+      "email": "haasu@gmail.com",
+      "password": "oppo"
+    },
+    {
+      "id": "9442",
+      "name": "KESAV",
+      "email": "kesav@gmail.com",
+      "password": "oppo"
+    }
+  ]
+}

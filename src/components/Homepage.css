@@ -1,0 +1,142 @@
+/* src/components/Homepage.css */
+
+.homepage {
+  padding: 120px;
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.cta-button {
+  background-color: #ff9800;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.cta-button:hover {
+  background-color: #e68900;
+}
+
+.featured-events, .event-categories, .testimonials, .newsletter, .contact-info {
+  margin-bottom: 50px;
+}
+
+.events-grid, .categories-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.event-card, .category-card {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  text-align: center;
+  margin: 10px;
+}
+
+.event-card img, .category-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.event-card button {
+  background-color: #ff9800;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.event-card button:hover {
+  background-color: #e68900;
+}
+
+.category-card.concerts {
+  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fconcert&psig=AOvVaw08TWV3aYrnc262EEPar_tk&ust=1722164880857000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLDIlaOKx4cDFQAAAAAdAAAAABAE');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.category-card.workshops {
+  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Ffree-backgrounds-photos%2Fworkshop&psig=AOvVaw1MUWnHg7ssgl1INlJqGda1&ust=1722164928962000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLCUiLuKx4cDFQAAAAAdAAAAABAE');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.category-card.conferences {
+  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dreamstime.com%2Fphotos-images%2Fconference.html&psig=AOvVaw0Whod3Zi8TE1O--n8A7lDO&ust=1722164964169000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMjuqN2Kx4cDFQAAAAAdAAAAABAE');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.category-card.festivals {
+  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wallpaperflare.com%2Fsearch%3Fwallpaper%3Dfestival%2Bof%2Bcolours&psig=AOvVaw0-jhWRZCZTY-k9x0hUP1om&ust=1722165055640000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIDOuvmKx4cDFQAAAAAdAAAAABAE');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+/* Ensure text remains readable */
+.category-card h3 {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.testimonial-card {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+}
+
+.newsletter-form input {
+  padding: 10px;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.newsletter-form button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ff9800;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.newsletter-form button:hover {
+  background-color: #e68900;
+}
+
+.contact-info {
+  text-align: center;
+}
